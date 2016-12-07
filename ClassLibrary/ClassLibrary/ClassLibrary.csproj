@@ -43,6 +43,7 @@
     <Compile Include="clsCompany.cs" />
     <Compile Include="clsCompanyCollection.cs" />
     <Compile Include="clsDataConnection.cs" />
+    <Compile Include="clsExtraClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
