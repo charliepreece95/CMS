@@ -14,7 +14,7 @@ namespace ClassLibrary
         private string address;
         private string postcode;
         private decimal teleNum;
-        private string email;
+        private string email; 
         private string desc;
         clsDataConnection MyDB = new clsDataConnection();
 
