@@ -11,5 +11,3 @@
     <asp:Label ID="lblDisplay" runat="server" Text="error"></asp:Label>
     <br />
 </asp:Content>
-
-<!-- Main page -->

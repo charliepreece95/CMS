@@ -14,7 +14,7 @@ namespace ClassLibrary
         private string address;
         private string postcode;
         private decimal teleNum;
-        private string email; 
+        private string email;
         private string desc;
         clsDataConnection MyDB = new clsDataConnection();
 
@@ -40,7 +40,7 @@ namespace ClassLibrary
             set
             {
                 companyName = value;
-            }    
+            }
         }
 
         public string Address
@@ -64,14 +64,14 @@ namespace ClassLibrary
             set
             {
                 postcode = value;
-            }           
+            }
         }
 
         public decimal TeleNum
         {
             get
             {
-               return teleNum;
+                return teleNum;
             }
             set
             {
@@ -84,7 +84,7 @@ namespace ClassLibrary
             get
             {
                 return email;
-            } 
+            }
             set
             {
                 email = value;
@@ -137,7 +137,7 @@ namespace ClassLibrary
             {
                 //return that there was a problem
                 return false;
-            }            
+            }
         }
     }
 }

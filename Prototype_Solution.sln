@@ -30,6 +30,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BCFrontEnd", "BCFrontEnd\",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary\ClassLibrary.csproj", "{919BEC58-996C-4CEA-8F5A-0BAE5E222D2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFrameWork", "TestFrameWork\TestFrameWork.csproj", "{E4F9FB6F-3359-4893-90DF-0BC5400CF92A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +50,10 @@ Global
 		{919BEC58-996C-4CEA-8F5A-0BAE5E222D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{919BEC58-996C-4CEA-8F5A-0BAE5E222D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{919BEC58-996C-4CEA-8F5A-0BAE5E222D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4F9FB6F-3359-4893-90DF-0BC5400CF92A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F9FB6F-3359-4893-90DF-0BC5400CF92A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F9FB6F-3359-4893-90DF-0BC5400CF92A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F9FB6F-3359-4893-90DF-0BC5400CF92A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
