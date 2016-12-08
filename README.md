@@ -1,2 +1,2 @@
-# TheProjectBankCMS
-Website Application for - Project Management and Development (IMAT2204)
+# TheProjectBank
+The Project Bank CMS System

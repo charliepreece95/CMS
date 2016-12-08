@@ -1,0 +1,169 @@
+﻿/* Project Bank CSS */
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Reset padding and margins */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #24313D;
+}
+
+header {
+    width: 100%;
+    background-color: #18242E;
+    top: 0;
+	height: 100px;
+    color: #E3E8EB;
+}
+
+#logo {
+    float: left;
+    width: 150px;
+    height: 50px;
+    margin-left: 5%;
+	margin-top: 20px;
+	padding-bottom: 10px;
+    background-color: green;
+}
+
+.mainNav {
+    display: flex;
+    float: right;
+    height: 25px;
+    width: 30%;
+    margin-right: 5%;
+    margin-top: 2%;
+    justify-content: center
+
+}
+.mainNav ul {
+    display:inline-flex;
+    justify-content: center;
+    color: #E3E8EB;
+    list-style: none;
+    width: 100%;
+}
+.mainNav a {
+    text-align: center;
+    color: #E3E8EB;
+    width: 100%;
+    text-decoration: none;
+}
+.mainNav a:hover {
+    border-bottom: 1px solid #E6494D;
+}
+
+/* Styling for the 1st, 2nd, 3rd item in the fontActive list */
+#fontActive {
+    color: #E3E8EB;
+    display:inline-flex;
+    justify-content: flex-end;
+    color: #E3E8EB;
+    list-style: none;
+    width: 100%;
+    height: 25%;
+}
+#smaller {
+    font-size: smaller;
+    margin-right: 0.5%;
+}
+#medium {
+    font-size:medium;
+    margin-right: 0.5%;
+}
+#larger {
+    font-size: larger;
+    margin-right: 1%;
+}
+
+/* Styling for main content section */
+
+.content {
+    height: 800px;
+    color: #E3E8EB;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+
+/* Styling for static footer section */
+footer {
+    background-color: #18242E;
+    height:500px;
+    color: #E3E8EB;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+/***
+
+    This section is ther styling for the StaffManagement.aspx Page
+
+***/
+
+.container {
+    width: 100%;
+    height: 70%;
+    margin-top: 5%;
+    display: inline-flex;
+    justify-content:space-between;
+}
+
+.return {
+    width: 50px;
+    height: 30px;
+    float: left;
+    margin-top: 2%;
+}
+.return p, span {
+    font-size:100%;
+    line-height: 10px;
+    color: #E6494D;
+}
+
+.Options {
+    display: flex;
+    flex-direction:column;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    width: 15%;
+    margin-left: 2%;
+    
+}
+.Options a {
+    height: 10%;
+    background-color:#18242E;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #E6494D;
+    width: 100%;
+    color: #dedede;
+    text-decoration: none;
+}
+
+
+.StaffList {
+    width: 80%;
+    height: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+#tableHead {
+    font-size: larger;
+    font-weight: 200;
+    height: 50px;
+    color: #E6494D;
+}
+.StaffList td {
+    width: 5%;
+    border-bottom: 1px solid #dedede;
+}
+.StaffList tr:hover {
+    color: #E6494D;
+}

@@ -1,0 +1,5 @@
+C:\Users\AshRe\Documents\GitHub\TheBankProjectCMS\BankProjectCMS\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\AshRe\Documents\GitHub\TheBankProjectCMS\BankProjectCMS\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\AshRe\Documents\GitHub\TheBankProjectCMS\BankProjectCMS\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\AshRe\Documents\GitHub\TheBankProjectCMS\BankProjectCMS\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\AshRe\Documents\GitHub\TheBankProjectCMS\BankProjectCMS\ClassLibrary\obj\Debug\ClassLibrary.pdb

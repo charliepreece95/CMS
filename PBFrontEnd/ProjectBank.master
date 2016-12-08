@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ProjectBank.master.cs" Inherits="ProjectBank" %>
+
+<!DOCTYPE html>
+
+<html>
+    <head id="Head1" runat="server">
+        <!-- Website title -->
+        <title>Sample Master Page</title>
+        <!-- link to styling -->
+        <link href="ProjectBank.css" rel="stylesheet" type="text/css" />
+        <!-- link to access.js -->
+        <script src="access.js"></script>
+        <!-- link to fav icon image -->
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    </head>
+    <body>
+        <form id="form1" runat="server">
+             <!-- website heaser -->
+             <header>
+                 <div id="logo"></div>
+                 <!-- website main navigation -->
+                <nav class="mainNav">
+                    <ul>
+                        <a href="Default.aspx"><li>Home</li></a>
+                        <a href="#"><li>Client</li></a>
+                        <a href="#"><li>Company</li></a>
+                        <a href="StaffManagement.aspx"><li>Staff</li></a>
+                        <a href="#"><li>Projects</li></a>
+                    </ul>
+                </nav>
+                 <!-- accessability options for users -->
+                 <div id="fontActive">
+                     <button onclick="fontSmaller()" id="smaller">A</button>
+                     <button onclick="fontReset()" id="medium">A</button>
+                     <button onclick="fontLarger()" id="larger">A</button>
+                 </div>
+            </header>
+
+            <!-- dynamic main content of page -->
+            <main class="content"> 
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </main>
+
+            <!-- static website footer -->
+            <footer>
+                <p>This is static master page text</p>
+            </footer>
+        </form>
+    </body>
+</html>
