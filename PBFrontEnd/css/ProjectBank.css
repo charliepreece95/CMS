@@ -23,12 +23,15 @@ header {
 
 #logo {
     float: left;
-    width: 150px;
-    height: 50px;
+    width: 5%;
+    height: 100%;
     margin-left: 5%;
-	margin-top: 20px;
-	padding-bottom: 10px;
-    background-color: green;
+    display: flex;
+}
+#logo img {
+    justify-content: center;
+    height: 100%;
+    width: 100%;
 }
 
 .mainNav {
@@ -66,7 +69,11 @@ header {
     color: #E3E8EB;
     list-style: none;
     width: 100%;
-    height: 25%;
+    height: 22%;
+    padding-top: 1%;
+}
+#fontActive button {
+    width: 1%;
 }
 #smaller {
     font-size: smaller;
@@ -109,7 +116,7 @@ footer {
 .container {
     width: 100%;
     height: 70%;
-    margin-top: 5%;
+    margin-top: 1%;
     display: inline-flex;
     justify-content:space-between;
 }
@@ -145,13 +152,15 @@ footer {
     color: #dedede;
     text-decoration: none;
 }
-
+.Options button, select, input {
+    height: 30px;
+    margin-top: 5%;
+}
 
 .StaffList {
     width: 80%;
     height: 100%;
     margin-bottom: 10px;
-    text-align: center;
     margin-top: 10px;
 }
 #tableHead {
@@ -159,11 +168,54 @@ footer {
     font-weight: 200;
     height: 50px;
     color: #E6494D;
+    text-align: center;
 }
 .StaffList td {
     width: 5%;
     border-bottom: 1px solid #dedede;
+    height: 30px;
 }
 .StaffList tr:hover {
     color: #E6494D;
+}
+
+.allStaff {
+    text-align: center;
+}
+.FuzSearch {
+    height: 20px;
+    width: 60px;
+}
+
+/* This section is for the AddStaff.aspx page */
+
+.AddForm {
+    float: left;
+    width: 35%;
+    padding-top: 10%;
+}
+.AddForm input {
+    width: 50%;
+}
+#selectPosition {
+    width: 50%;
+}
+#AddStaffID {
+    width: 20%;
+    text-align: center;
+}
+
+.AddResults {
+    float: right;
+    width: 65%;
+    padding-top: 10%;
+}
+.AddResultsTable {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.AddResultsTable td {
+    border-bottom: 1px solid #dedede;
+    height: 30px;
 }

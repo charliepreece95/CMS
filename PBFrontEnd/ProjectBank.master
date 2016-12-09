@@ -5,11 +5,11 @@
 <html>
     <head id="Head1" runat="server">
         <!-- Website title -->
-        <title>Sample Master Page</title>
+        <title></title>
         <!-- link to styling -->
-        <link href="ProjectBank.css" rel="stylesheet" type="text/css" />
+        <link href="css/ProjectBank.css" rel="stylesheet" type="text/css" />
         <!-- link to access.js -->
-        <script src="access.js"></script>
+        <script src="js/access.js"></script>
         <!-- link to fav icon image -->
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
     </head>
@@ -17,7 +17,9 @@
         <form id="form1" runat="server">
              <!-- website heaser -->
              <header>
-                 <div id="logo"></div>
+                 <div id="logo">
+                     <a href="Default.aspx"><img src="media/logo.png" alt="logo" /></a>
+                 </div>
                  <!-- website main navigation -->
                 <nav class="mainNav">
                     <ul>
@@ -44,7 +46,6 @@
 
             <!-- static website footer -->
             <footer>
-                <p>This is static master page text</p>
             </footer>
         </form>
     </body>

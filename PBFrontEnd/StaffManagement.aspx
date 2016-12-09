@@ -1,17 +1,27 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ProjectBank.master" AutoEventWireup="true" CodeFile="StaffManagement.aspx.cs" Inherits="StaffManagement" %>
+﻿<%@ Page Title="Staff Management" Language="C#" MasterPageFile="~/ProjectBank.master" AutoEventWireup="true" CodeFile="StaffManagement.aspx.cs" Inherits="StaffManagement" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <a href="Default.aspx"><div class="return">
         <span>&#8592;</span><p>Return</p>
     </div></a>
     <div class="container">
-        <div class="Options">
-            <a href="AddStaff.aspx"><div>Add</div></a>
-            <a href="EditStaff.aspx"><div>Edit</div></a>
-            <a href="#"><div>Archive</div></a>
-            <a href="ArchiveStaff.aspx"><div>View Archived</div></a>
-        </div>
+           <div class="Options">
+                <a href="AddStaff.aspx"><div>Add</div></a>
+                <a href="EditStaff.aspx"><div>Edit</div></a>
+                <a href="ArchiveStaff.aspx"><div>View Archived</div></a>
+
+            <button id="ArchiveButton">Archive Selected</button>
+            <select id="FilterBy" name="FilterBy">
+                <option value="" disabled selected>Filter By...</option>
+                <option value="Name">Name</option>
+                <option value="Position">Position</option>
+            </select>
+            <input type="submit" value="Filter" />
+          </div>
+
         <div class="StaffList">
+            <input id="FuzSearch" type="text" name="Search" placeholder="Search Staff Member" />
+            <input type="submit" name="Search" value="Search" />
             <table class="allStaff">
                 <tr id="tableHead">
                     <td>Staff#</td>
@@ -143,38 +153,6 @@
                 </tr>
                 <tr>
                     <td>16</td>
-                    <td>Cath</td>
-                    <td>Smith</td>
-                    <td>07253456464</td>
-                    <td>cath@email.com</td>
-                    <td>Apprentice</td>
-                </tr>
-                <tr>
-                    <td>17</td>
-                    <td>Cath</td>
-                    <td>Smith</td>
-                    <td>07253456464</td>
-                    <td>cath@email.com</td>
-                    <td>Apprentice</td>
-                </tr>
-                <tr>
-                    <td>18</td>
-                    <td>Cath</td>
-                    <td>Smith</td>
-                    <td>07253456464</td>
-                    <td>cath@email.com</td>
-                    <td>Apprentice</td>
-                </tr>
-                <tr>
-                    <td>19</td>
-                    <td>Cath</td>
-                    <td>Smith</td>
-                    <td>07253456464</td>
-                    <td>cath@email.com</td>
-                    <td>Apprentice</td>
-                </tr>
-                <tr>
-                    <td>20</td>
                     <td>Cath</td>
                     <td>Smith</td>
                     <td>07253456464</td>
