@@ -6,7 +6,7 @@
     </div></a>
     <div class="container">
         <div class="AddForm">
-            <input id="AddStaffID" type="text" value="1" />
+            <input id="AddStaffID" type="text" value="17" />
             <label for="Staff#">Staff ID: </label>
             <br />
             <input type="text" value="" />
@@ -43,36 +43,12 @@
                     <td>Position</td>
                 </tr>
                 <tr>
-                    <td>1</td>
-                    <td>James</td>
-                    <td>Blake</td>
-                    <td>0783535000</td>
-                    <td>james@email.com</td>
-                    <td>Manager</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Susan</td>
-                    <td>Smith</td>
-                    <td>045345360</td>
-                    <td>susan@email.com</td>
-                    <td>Worker</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Tom</td>
-                    <td>Smith</td>
-                    <td>12345678901</td>
-                    <td>tom@email.com</td>
-                    <td>Worker</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Paul</td>
-                    <td>Smith</td>
-                    <td>072552352352</td>
-                    <td>paul@email.com</td>
-                    <td>Manager</td>
+                    <td>17</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
             </table>
         </div>
