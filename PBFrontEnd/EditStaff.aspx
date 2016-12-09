@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ProjectBank.master" AutoEventWireup="true" CodeFile="EditStaff.aspx.cs" Inherits="EditStaff" %>
+﻿<%@ Page Title="Edit Staff Member" Language="C#" MasterPageFile="~/ProjectBank.master" AutoEventWireup="true" CodeFile="EditStaff.aspx.cs" Inherits="EditStaff" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <a href="StaffManagement.aspx"><div class="return">
@@ -34,7 +34,7 @@
         </div>
         <div class="AddResults">
             <table class="AddResultsTable">
-                <tr id="tableHead">
+                <tr class="tableHead">
                     <td>Staff#</td>
                     <td>First Name</td>
                     <td>Last Name</td>

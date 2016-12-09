@@ -46,6 +46,64 @@
 
             <!-- static website footer -->
             <footer>
+                <article id="siteMap">
+                    <table>
+                        <tr class="tableHead">
+                            <td>Home</td>
+                            <td>Clients</td>
+                            <td>Company</td>
+                            <td>Appointments</td>
+                            <td>Staff</td>
+                            <td>Projects</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Client Management</td>
+                            <td>Company Management</td>
+                            <td>Appointment Management</td>
+                            <td><a href="StaffManagement.aspx">Staff Management</a></td>
+                            <td>Project Management</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Add Client</td>
+                            <td>Add Company</td>
+                            <td>Add Appointment</td>
+                            <td><a href="AddStaff.aspx">Add Staff</a></td>
+                            <td>Add Project</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Edit Client</td>
+                            <td>Edit Company</td>
+                            <td>Edit Appointment</td>
+                            <td><a href="EditStaff.aspx">Edit Staff</a></td>
+                            <td>Edit Project</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Archived Clients</td>
+                            <td>Archived Companys</td>
+                            <td>Archived Appointments</td>
+                            <td><a href="ArchiveStaff.aspx">Archived Staff</a></td>
+                            <td>Archived Projects</td>
+                        </tr>
+                    </table>
+                </article>   
+                <article id="mediaLinks">
+                    <ul>
+                        <li>
+                            <img src="media/socialMedia/faceb.png" alt="FaceBook" /></li>
+                        <li>
+                            <img src="media/socialMedia/twit.png" alt="Twitter" /></li>
+                        <li>
+                            <img src="media/socialMedia/link.png" alt="LinkedIn" /></li>
+                        <li>
+                            <img src="media/socialMedia/pin.png" alt="Pintrest" /></li>
+                        <li>
+                            <img src="media/socialMedia/yt.png" alt="YouTube" /></li>
+                    </ul>
+                </article>
             </footer>
         </form>
     </body>

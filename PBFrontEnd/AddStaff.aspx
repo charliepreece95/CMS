@@ -34,7 +34,7 @@
         </div>
         <div class="AddResults">
             <table class="AddResultsTable">
-                <tr id="tableHead">
+                <tr class="tableHead">
                     <td>Staff#</td>
                     <td>First Name</td>
                     <td>Last Name</td>

@@ -23,7 +23,7 @@
             <input id="FuzSearch" type="text" name="Search" placeholder="Search Staff Member" />
             <input type="submit" name="Search" value="Search" />
             <table class="allStaff">
-                <tr id="tableHead">
+                <tr class="tableHead">
                     <td>Staff#</td>
                     <td>First Name</td>
                     <td>Last Name</td>

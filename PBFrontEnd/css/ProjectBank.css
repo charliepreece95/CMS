@@ -91,7 +91,7 @@ header {
 /* Styling for main content section */
 
 .content {
-    height: 800px;
+    height: 900px;
     color: #E3E8EB;
     padding-left: 25%;
     padding-right: 25%;
@@ -103,9 +103,88 @@ footer {
     background-color: #18242E;
     height:500px;
     color: #E3E8EB;
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
+#siteMap {
+    width: 100%;
+    height: 250px;
+}
+#siteMap table {
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+#siteMap a {
+    text-decoration: none;
+    color: aqua;
+}
+#mediaLinks {
+    float: right;
+    height: 50px;
+    width: 250px;
+}
+#mediaLinks ul {
+    list-style: none;
+    display: inline-flex;
+}
+#mediaLinks img {
+    height: 50px;
+    width: 50px;
+}
+
+
+/* This section is the styling for the Homepage or 'Default.aspx */
+
+.hero {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+.hero table {
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 10%;
+    width: 100%;
+    height: 40%;
+}
+.hero img {
+    height: 100px;
+    width: 100px;
+}
+.hero h1, h4 {
+    margin-top: 5%;
+}
+.services {
+    width: 100%;
+    height: 400px;
+    padding-top: 50px;
+    display: flex;
+}
+.serviceSection {
+    display: inline-block;
+    width: 33.33%;
+
+    justify-content: center;
+}
+.serviceSection table {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-right: 1px solid #dedede;
+}
+.serviceSection img {
+    width: 50px;
+    height: 50px;
+}
+#lastTableBorder table {
+    border-right: none;
+}
+
+
+
 
 /***
 
@@ -163,7 +242,7 @@ footer {
     margin-bottom: 10px;
     margin-top: 10px;
 }
-#tableHead {
+.tableHead {
     font-size: larger;
     font-weight: 200;
     height: 50px;
