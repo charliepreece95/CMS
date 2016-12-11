@@ -23,7 +23,7 @@ header {
 
 #logo {
     float: left;
-    width: 5%;
+    width: 100px;
     height: 100%;
     margin-left: 5%;
     display: flex;
@@ -93,8 +93,8 @@ header {
 .content {
     height: 900px;
     color: #E3E8EB;
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 
@@ -103,8 +103,8 @@ footer {
     background-color: #18242E;
     height:500px;
     color: #E3E8EB;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 #siteMap {
     width: 100%;
