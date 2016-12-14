@@ -27,6 +27,7 @@
                         <a href="#"><li>Client</li></a>
                         <a href="#"><li>Company</li></a>
                         <a href="StaffManagement.aspx"><li>Staff</li></a>
+                        <a href="#"><li>Appointments</li></a>
                         <a href="#"><li>Projects</li></a>
                     </ul>
                 </nav>

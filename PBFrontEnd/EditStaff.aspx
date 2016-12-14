@@ -5,23 +5,23 @@
         <span>&#8592;</span><p>Return</p>
     </div></a>
     <div class="container">
-        <div class="AddForm">
-            <input id="AddStaffID" type="text" value="3" />
+        <div class="Options">
+            <input id="AddStaffID" type="text" value="3" class="button" />
             <label for="Staff#">Staff ID: </label>
             <br />
-            <input type="text" value="Tom" />
+            <input type="text" value="Tom" class="button" />
             <label for="FirstName">First Name</label>
             <br />
-            <input type="text" value="Smith" />
+            <input type="text" value="Smith" class="button" />
             <label for="LastName">Last Name</label>
             <br />
-            <input type="text" value="12345678901" />
+            <input type="text" value="12345678901" class="button" />
             <label for="TeleNum">Telephone Number</label>
             <br />
-            <input type="text" value="tom@email.com" />
+            <input type="text" value="tom@email.com" class="button" />
             <label for="Email">Email</label>
             <br />
-            <select id="selectPosition" name="selectPosdition">
+            <select id="selectPosition" name="selectPosdition" class="button">
                 <option value="" disabled selected>Select Position</option>
                 <option value="Manager">Manager</option>
                 <option value="Supervisor">Supervisor</option>
@@ -30,10 +30,11 @@
                 <option value="Apprentice">Apprentice</option>
             </select>
             <label for="position">Position</label>
-            <input type="submit" value="Save" />
+            <input type="submit" value="Save" class="button" onclick="UpdateConfirm()" />
         </div>
-        <div class="AddResults">
+        <div class="StaffList">
             <table class="AddResultsTable">
+                <caption>Edit "Tom Smith"</caption>
                 <tr class="tableHead">
                     <td>Staff#</td>
                     <td>First Name</td>

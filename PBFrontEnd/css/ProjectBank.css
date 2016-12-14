@@ -61,6 +61,53 @@ header {
     border-bottom: 1px solid #E6494D;
 }
 
+.button {
+    font-size: medium;
+    padding-top: 5px;
+    background-color:#18242E;
+    text-align: center;
+    height: 50px;
+    border: 1px solid #E6494D;
+    width: 100%;
+    color: #dedede;
+    text-decoration: none;
+}
+
+button.button {
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button.button:active {
+    background-color: #E6494D;
+}
+a.button {
+    line-height: 50px;
+}
+a.button:active {
+    background-color: #E6494D;
+}
+
+input.button {
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input.button:active {
+    background-color: #E6494D;
+}
+select.button {
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#searchButton {
+    width: 10%;
+}
+
+
+
 /* Styling for the 1st, 2nd, 3rd item in the fontActive list */
 #fontActive {
     color: #E3E8EB;
@@ -221,20 +268,7 @@ footer {
     margin-left: 2%;
     
 }
-.Options a {
-    height: 10%;
-    background-color:#18242E;
-    text-align: center;
-    line-height: 50px;
-    border: 1px solid #E6494D;
-    width: 100%;
-    color: #dedede;
-    text-decoration: none;
-}
-.Options button, select, input {
-    height: 30px;
-    margin-top: 5%;
-}
+
 
 .StaffList {
     width: 80%;
@@ -261,24 +295,14 @@ footer {
 .allStaff {
     text-align: center;
 }
-.FuzSearch {
-    height: 20px;
-    width: 60px;
+#FuzSearch {
+    width: 30%;
+    height: 50px;
 }
 
 /* This section is for the AddStaff.aspx page */
 
-.AddForm {
-    float: left;
-    width: 35%;
-    padding-top: 10%;
-}
-.AddForm input {
-    width: 50%;
-}
-#selectPosition {
-    width: 50%;
-}
+
 #AddStaffID {
     width: 20%;
     text-align: center;
@@ -297,4 +321,17 @@ footer {
 .AddResultsTable td {
     border-bottom: 1px solid #dedede;
     height: 30px;
+}
+
+#selectPosition {
+    height: 50px;
+}
+
+/* This section is for the Archived Staff page */
+
+#ReinstateButton {
+    background-color: #004c00
+}
+#deleteButton {
+    background-color: #660000
 }

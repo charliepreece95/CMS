@@ -30,3 +30,21 @@ function 	fontReset() {
         x[i].style.fontSize = "100%";
     }
 }
+
+// these functions below provide a on lick confirm box
+
+function reinstateConfirm() {
+    confirm("Are you sure you wish to REINSTATE this Staff Member?");
+}
+
+function deletePermConfirm() {
+    confirm("Are you sure you wish to PERMANENTLY delete this Staff Member?")
+}
+
+function saveNewConfirm() {
+    confirm("Are you sure you want to ADD this Staff Member?")
+}
+
+function UpdateConfirm() {
+    confirm("Are you sure you want to UPDATE this Staff Member?")
+}

@@ -6,23 +6,24 @@
     </div></a>
     <div class="container">
            <div class="Options">
-                <a href="AddStaff.aspx"><div>Add</div></a>
-                <a href="EditStaff.aspx"><div>Edit</div></a>
-                <a href="ArchiveStaff.aspx"><div>View Archived</div></a>
+                <a href="AddStaff.aspx" class="button"><div>Add</div></a>
+                <a href="EditStaff.aspx" class="button"><div>Edit</div></a>
+                <a href="ArchiveStaff.aspx" class="button"><div>View Archived</div></a>
 
-            <button id="ArchiveButton">Archive Selected</button>
-            <select id="FilterBy" name="FilterBy">
+            <button id="ArchiveButton" class="button">Archive Selected</button>
+            <select id="FilterBy" name="FilterBy" class="button">
                 <option value="" disabled selected>Filter By...</option>
                 <option value="Name">Name</option>
                 <option value="Position">Position</option>
             </select>
-            <input type="submit" value="Filter" />
+            <input type="submit" value="Filter" class="button" />
           </div>
 
         <div class="StaffList">
-            <input id="FuzSearch" type="text" name="Search" placeholder="Search Staff Member" />
-            <input type="submit" name="Search" value="Search" />
+            <input id="FuzSearch" class="button" type="text" name="Search" placeholder="Search Here..." />
+            <input type="submit" id="searchButton" class="button" name="Search" value="Search" />
             <table class="allStaff">
+                <caption>Staff Management</caption>
                 <tr class="tableHead">
                     <td>Staff#</td>
                     <td>First Name</td>

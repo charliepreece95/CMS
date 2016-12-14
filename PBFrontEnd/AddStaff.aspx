@@ -5,24 +5,24 @@
         <span>&#8592;</span><p>Return</p>
     </div></a>
     <div class="container">
-        <div class="AddForm">
-            <input id="AddStaffID" type="text" value="17" />
+        <div class="Options">
+            <input id="AddStaffID" type="text" value="17" class="button" />
             <label for="Staff#">Staff ID: </label>
             <br />
-            <input type="text" value="" />
+            <input type="text" value="" class="button" />
             <label for="FirstName">First Name</label>
             <br />
-            <input type="text" value="" />
+            <input type="text" value="" class="button" />
             <label for="LastName">Last Name</label>
             <br />
-            <input type="text" value="" />
+            <input type="text" value="" class="button" />
             <label for="TeleNum">Telephone Number</label>
             <br />
-            <input type="text" value="" />
+            <input type="text" value="" class="button" />
             <label for="Email">Email</label>
             <br />
-            <select id="selectPosition" name="selectPosdition">
-                <option value="" disabled selected>Select Position</option>
+            <select id="selectPosition" name="selectPosdition" class="button">
+                <option value="noValue" disabled selected>Select Position</option>
                 <option value="Manager">Manager</option>
                 <option value="Supervisor">Supervisor</option>
                 <option value="Developer">Developer</option>
@@ -30,10 +30,11 @@
                 <option value="Apprentice">Apprentice</option>
             </select>
             <label for="position">Position</label>
-            <input type="submit" value="Add" />
+            <input type="submit" value="Add" class="button" onclick="saveNewConfirm()" />
         </div>
-        <div class="AddResults">
+        <div class="StaffList">
             <table class="AddResultsTable">
+                <caption>Add New Staff</caption>
                 <tr class="tableHead">
                     <td>Staff#</td>
                     <td>First Name</td>
