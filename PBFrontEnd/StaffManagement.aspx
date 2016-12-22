@@ -35,7 +35,7 @@
                 <tr>
                     <td>1</td>
                     <td>James</td>
-                    <td>Blake</td>
+                    <td>jones</td>
                     <td>0783535000</td>
                     <td>james@email.com</td>
                     <td>Manager</td>

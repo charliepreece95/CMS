@@ -38,13 +38,38 @@ function reinstateConfirm() {
 }
 
 function deletePermConfirm() {
-    confirm("Are you sure you wish to PERMANENTLY delete this Staff Member?")
+    confirm("Are you sure you wish to PERMANENTLY delete this Staff Member?");
 }
 
 function saveNewConfirm() {
-    confirm("Are you sure you want to ADD this Staff Member?")
+    confirm("Are you sure you want to ADD this Staff Member?");
 }
 
 function UpdateConfirm() {
-    confirm("Are you sure you want to UPDATE this Staff Member?")
+    confirm("Are you sure you want to UPDATE this Staff Member?");
+}
+
+//Archive company Onclick event
+function ArchiveCompanyConfirm() {
+    confirm("Do you want to Archive this Company?");
+}
+
+//Add company onClick event
+function SubmitAddCompanyConfirm() {
+    confirm("Do you want to Add this Company?");
+}
+
+//Edit company onClick event
+function SubmitEditCompanyConfirm() {
+    confirm("Do you want to Edit this Company?");
+}
+
+//Delete company onClick event
+function SubmitDeleteCompanyConfirm() {
+    confirm("Do you want to Delete this Company?");
+}
+
+//Reinstate company onClick event
+function SubmitReinstateCompanyConfirm() {
+    confirm("Do you want Reinstate this Company?");
 }
