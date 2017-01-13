@@ -3,3 +3,8 @@ C:\Users\AshRe\Documents\GitHub\TheBankProjectCMS\BankProjectCMS\ClassLibrary\bi
 C:\Users\AshRe\Documents\GitHub\TheBankProjectCMS\BankProjectCMS\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
 C:\Users\AshRe\Documents\GitHub\TheBankProjectCMS\BankProjectCMS\ClassLibrary\obj\Debug\ClassLibrary.dll
 C:\Users\AshRe\Documents\GitHub\TheBankProjectCMS\BankProjectCMS\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\Users\Charlie Preece\Desktop\GitHub\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\Charlie Preece\Desktop\GitHub\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\Charlie Preece\Desktop\GitHub\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Charlie Preece\Desktop\GitHub\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\Charlie Preece\Desktop\GitHub\ClassLibrary\obj\Debug\ClassLibrary.pdb

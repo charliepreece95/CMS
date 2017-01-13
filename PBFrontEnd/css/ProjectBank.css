@@ -113,7 +113,6 @@ select.button {
     color: #E3E8EB;
     display:inline-flex;
     justify-content: flex-end;
-    color: #E3E8EB;
     list-style: none;
     width: 100%;
     height: 22%;
@@ -234,9 +233,7 @@ footer {
 
 
 /***
-
     This section is ther styling for the StaffManagement.aspx Page
-
 ***/
 
 .container {
@@ -335,3 +332,232 @@ footer {
 #deleteButton {
     background-color: #660000
 }
+
+/***
+ 
+     This section is the styling for the CompanyManagement Pages
+ 
+ ***/
+ /*.Container4Company has been refered to every company page*/
+ .container4Company {
+     width: 100%;
+     height: 70%;
+     margin-top: 1%;
+     display: inline-flex;
+     justify-content: space-between;
+ }
+ /*.Options4Company has been refered to every company page*/
+ .Options4Company {
+     display: flex;
+     flex-direction: column;
+     margin-top: 130px;
+     float: right;
+     width: 25%;
+     margin-left: 1%;
+ }
+ /*.CompanyList has been refered to companyManagement, editCompany,  addCompany, */
+ .CompanyList {
+     margin-left: 60px;
+     width: 80%;
+ }
+ 
+ .CompanyList td {
+     margin-right: 2%;
+     border-bottom: 1px solid #dedede;
+     width: 180px;
+ }
+ 
+ .CompanyList tr:hover {
+     color: #E6494D;
+ }
+
+ /*.CompanyList has been refered to all other company page excluding the pages mentioned above*/
+ .CompanyList1 {
+     margin-left: 200px;
+     float: right; 
+     width: 80%;   
+ }
+ .CompanyList1 td {
+     border-bottom: 1px solid #dedede;
+     width: 180px;
+ }
+ 
+ .CompanyList1 tr:hover {
+     color: #E6494D;
+ }
+ 
+ /*.tableHead4Company has been refered to every company page*/
+ .tableHead4Company {
+     margin: 5%;
+     font-size: larger;
+     font-weight: 200;
+     height: 50px;
+     color: #E6494D;
+     text-align: center;
+ }
+ /*Only referenced in CompanyMangement.aspx*/
+ .allCompanies {
+     text-align: center;
+ }
+
+ /*Referenced in companyManagement, viewArchivedCompany */
+ #FuzSearch4Company {
+     margin-bottom: 5%;
+     width: 30%;
+     height: 50px;
+     margin-left: auto;
+ }
+
+  /*Referenced in companyManagement, viewArchivedCompany */
+ #searchButton4Company {
+     width: 12%;
+     height: 9%;
+ }
+
+  /*Referenced in companyManagement, viewArchivedCompany */
+ #searchButton4Company:hover {
+     background-color: black;
+     font-weight: bolder;    
+ }
+
+ /*JavaScript button coloring*/
+ #ArchiveButton {
+     background-color: #e50000;
+ }
+
+ /*Used for companyManagement, and view archived company*/
+ #title {
+     float: right;
+     margin-top: 2%;
+     font-weight: 600;
+ }
+ 
+ /*used for all over other pages excluding the pages mentioned above*/
+ #title1 {
+     margin-top: 65px;
+     float: right;
+     font-weight: 600;
+ }
+ 
+ /* This section is for the AddCompany.aspx / EditCompany.aspx and ViewCompany.aspx page */
+ 
+ /*Aligns the company table*/
+ #AddCompanyID {
+     width: 20%;
+     text-align: center;
+ }
+ /*Referenced in all pages*/
+ .AddResults4Company {
+     float: right;
+     width: 65%;
+     padding-top: 10%;
+ }
+ /*Referenced in all pages*/
+ .AddResultsTable4Company {
+     width: 100%;
+     justify-content: center;
+     text-align: center;
+ }
+ /*Referenced in all pages*/
+ .AddResultsTable4Company td {
+     border-bottom: 1px solid #dedede;
+     height: 30px;
+ }
+ /*Styling and layout for buttons Submit and exit on AddCompany and editCompany*/
+ .CompanyOnClickButtons {
+     display: inline;
+     margin-left: 1%;
+     /*Tried to apply amargin-top to both buttons here but doesn't work, so it was plaed in "submitbutton" as it works there*/
+ }
+ 
+ #submitButton4Company {
+     width: 10%;
+     background-color: #004c00;
+     border-radius: 5%;
+ }
+ 
+ #exitButton4Company {
+     width: 10%;
+     margin-top: 8%; /*repositions both buttons including The SUBMIT Button*/
+     margin-left: 2.25%; /* Seperate the button from each other*/
+     background-color: #09abe0;
+     border-radius: 5%;
+ }
+ /*End for Add and edit Company Buttons*/
+ 
+ /*Styling and layout for ViewCompany.aspx*/
+ .CompanyOnClickButtons1 {
+     position: relative;
+     bottom: 54.5%;
+     display: inline;
+     margin-left: 1%;
+ }
+ 
+ #exitButton4Company1 {
+     width: 10%;
+     margin-left: 2%;
+     background-color: #09abe0;
+     border-radius: 5%;
+ }
+ /*End of styling and layout for ViewCompany.aspx*/
+ 
+ /*Styling and Layout for ViewArchivedCompany.aspx */
+ /*This div class holds the layout for all buttons on the page */
+ .CompanyOnClickButtons2 {
+     position: absolute;
+     top: 40%;
+     left: 17%;
+     margin-left: 1%;
+     width: 10%;
+     height: 40%;
+ }
+ 
+ /*View ArchivedCompany.aspx buttons*/
+ #OptionButton4Company {
+     width: 70%;
+     background-color: #004c00;
+     border-radius: 5%;
+ }
+ 
+ #exitButton4Company3 {
+     width: 70%;
+     background-color: #09abe0;
+     border-radius: 5%;
+ }
+
+  /*Styling and Layout for ViewArchivedCompany.aspx */
+ /*This div class holds the layout for all buttons on the page */
+ .CompanyOnClickButtons3 {
+     position: absolute;
+     top: 38.5%;
+     left: 17%;
+     margin-left: 1%;
+     width: 10%;
+     height: 40%;
+ }
+ 
+
+  /*DeleteRestoreCompany.aspx buttons*/
+ #ReinstateButton4Company {
+     width: 70%;
+     background-color: #004c00;
+     border-radius: 5%;
+ }
+ 
+ #DeleteButton4Company {
+     width: 70%;
+     background-color: #e50000;
+     border-radius: 5%;
+ }
+ 
+ #exitButton4Company2 {
+     width: 70%;
+     background-color: #09abe0;
+     border-radius: 5%;
+ }
+ 
+ /***
+ 
+     End of styling for CompanyManagement Pages
+     
+ ***/

@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <article class="hero">
         <h1>The operating system for business.</h1>
-        <h4>The Project Bank has everything you need to boost sales, step up productivity, and manage all day-to-day activities.</h4>
+        <%--<h4>The Project Bank has everything you need to boost sales, step up productivity, and manage all day-to-day activities.</h4>--%>
         <table>
             <caption>Featured Services</caption>
             <tr>

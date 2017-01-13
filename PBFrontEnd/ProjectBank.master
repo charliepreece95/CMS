@@ -25,7 +25,7 @@
                     <ul>
                         <a href="Default.aspx"><li>Home</li></a>
                         <a href="#"><li>Client</li></a>
-                        <a href="#"><li>Company</li></a>
+                        <a href="CompanyManagement.aspx"><li>Company</li></a>
                         <a href="StaffManagement.aspx"><li>Staff</li></a>
                         <a href="#"><li>Appointments</li></a>
                         <a href="#"><li>Projects</li></a>
@@ -60,7 +60,7 @@
                         <tr>
                             <td></td>
                             <td>Client Management</td>
-                            <td>Company Management</td>
+                            <td><a href="CompanyManagement.aspx">Company Management</a></td>
                             <td>Appointment Management</td>
                             <td><a href="StaffManagement.aspx">Staff Management</a></td>
                             <td>Project Management</td>
@@ -68,7 +68,7 @@
                         <tr>
                             <td></td>
                             <td>Add Client</td>
-                            <td>Add Company</td>
+                            <td><a href="AddCompany.aspx">Add Company</a></td>
                             <td>Add Appointment</td>
                             <td><a href="AddStaff.aspx">Add Staff</a></td>
                             <td>Add Project</td>
@@ -76,7 +76,7 @@
                         <tr>
                             <td></td>
                             <td>Edit Client</td>
-                            <td>Edit Company</td>
+                            <td><a href="EditCompany.aspx">Edit Company</a></td>
                             <td>Edit Appointment</td>
                             <td><a href="EditStaff.aspx">Edit Staff</a></td>
                             <td>Edit Project</td>
@@ -84,7 +84,7 @@
                         <tr>
                             <td></td>
                             <td>Archived Clients</td>
-                            <td>Archived Companys</td>
+                            <td><a href="ViewArchivedCompany.aspx">Archived Companies</a></td>
                             <td>Archived Appointments</td>
                             <td><a href="ArchiveStaff.aspx">Archived Staff</a></td>
                             <td>Archived Projects</td>
